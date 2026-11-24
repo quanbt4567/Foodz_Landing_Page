@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Foodz makes every meal worth remembering." />
+  <title>Foodz — Taste something wonderful</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Alice&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home" aria-label="Foodz home"><img src="assets/IMG/Logo.png" alt="Foodz" /></a>
+    <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+      <a class="nav-link active" href="#home">Home</a>
+      <a class="nav-link" href="#menu">Menu</a>
+      <a class="nav-link" href="#story">Blog</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+    <a class="btn-order" href="#order">ORDER NOW</a>
+    <button class="menu-burger" type="button" aria-expanded="false" aria-controls="main-nav"
+      aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-left">
+        <div class="hero-tagline">
+          <h1 class="hero-title">You've Got Questions.<br />We've Got Taste.</h1>
+          <p class="hero-sub">Explore your Taste with speacial food in the special place. This text don't have any
+            meaning</p>
+        </div>
+        <div class="hero-cta">
+          <a class="btn-primary" href="#order">ORDER NOW</a>
+          <a class="link-explore" href="#menu">Explore menu</a>
+        </div>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <p class="stat-num">9+</p>
+          <p class="stat-label">years of service.</p>
+        </div>
+        <span class="stat-divider"></span>
+        <div class="stat">
+          <p class="stat-num">120+</p>
+          <p class="stat-label">Store in the world.</p>
+        </div>
+      </div>
+      <div class="hero-media" aria-label="A colorful bowl of food">
+        <div class="hero-bg"></div>
+        <img class="hero-bibimbap" src="assets/IMG/hero/2066b4d659d8c26057139c0e719c58e28920ef51.png"
+          alt="Colorful rice bowl with vegetables and egg" />
+        <img class="hero-chopsticks" src="assets/IMG/hero/chopsticks.png" alt="" aria-hidden="true" />
+        <img class="hero-sugar" src="assets/IMG/hero/c45945d75e8570f1c597bee4a430503b1a2289c3.png" alt="" />
+      </div>
+    </section>
+
+    <section id="menu" class="special-offer">
+      <div class="section-intro">
+        <h2 class="section-title">Today <span>Special</span> Offers</h2>
+        <p class="section-sub">Best cooks and best delivery guys all at your service. Hot tasty food will reach you in
+          60 minutes.</p>
+      </div>
+      <div class="menu-list">
+        <article class="food-card">
+          <img class="food-img" src="assets/IMG/menu/c78c55e333096f986e89ff3c9b6364b24e6b642d.png" alt="Gimbap" />
+          <div class="food-info">
+            <h3 class="food-name">Gimbap</h3>
+            <div class="food-review"><span class="stars" aria-label="5 stars">★★★★★</span>
+              <p class="review-count">214 Reviews</p>
+            </div>
+            <div class="food-price-row">
+              <p class="food-price">$12.99</p><a class="btn-order-small" href="#order">ORDER NOW</a>
+            </div>
+          </div>
+        </article>
+        <article class="food-card food-card-featured">
+          <img class="food-img" src="assets/IMG/menu/35f78f6a80c29743490ca56a2c4c4088de387599.png" alt="Korea BBQ" />
+          <div class="food-info">
+            <div class="food-name-row">
+              <h3 class="food-name">Korea BBQ</h3><span class="countdown-badge">02:21:11</span>
+            </div>
+            <div class="food-review"><span class="stars" aria-label="5 stars">★★★★★</span>
+              <p class="review-count">214 Reviews</p>
+            </div>
+            <p class="food-desc">Excellent flavor for your preference with:<br />• Aromatic<br />• Spicy<br />• Honeyed sugary</p>
+            <div class="food-price-row">
+              <p class="food-price">$21.99</p><a class="btn-order-small" href="#order">ORDER NOW</a>
+            </div>
+          </div>
+        </article>
+        <article class="food-card">
+          <img class="food-img" src="assets/IMG/menu/539822ecfc78210bfeebeb56d79d7e94363b580e.png" alt="Kimchi" />
+          <div class="food-info">
+            <h3 class="food-name">Kimchi</h3>
+            <div class="food-review"><span class="stars" aria-label="5 stars">★★★★★</span>
+              <p class="review-count">214 Reviews</p>
+            </div>
+            <div class="food-price-row">
+              <p class="food-price">$6.99</p><a class="btn-order-small" href="#order">ORDER NOW</a>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="offer-arrows"><button class="arrow-btn" type="button" aria-label="Previous offer">‹</button><button
+          class="arrow-btn" type="button" aria-label="Next offer">›</button></div>
+    </section>
+
+    <section id="story" class="chef-info">
+      <h2 class="section-title">19 Michelin Stars Chef</h2>
+      <div class="chef-row">
+        <div class="chef-img"><img src="assets/IMG/image-removebg-preview.png" alt="Chef preparing a meal" /></div>
+        <div class="chef-copy">
+          <div class="chef-name-row">
+            <p class="chef-name">Alain Ducasse – 19 Michelin Stars</p><a class="link-restaurant" href="#contact">View
+              All Restaurant →</a>
+          </div>
+          <p class="chef-text">Considered by many to be one of the best chefs in the world, he's built a business empire
+            over the years with 36 restaurants spanning across the globe. He's also one of only two chefs to hold 21
+            Michelin stars throughout his career and the first chef to own restaurants carrying three Michelin Stars in
+            three cities. In addition to being known for world-class French cuisine, Ducasse is the only chef on this
+            list who has sent his food into space. In 2015, Ducasse sent meals to astronauts orbiting Earth aboard the
+            International Space Station, an accomplishment that Ducasse said he viewed as conquering 'the final frontier
+            (of cooking)'.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="how-we-keep">
+      <h2 class="section-title">How We Keep Your Meal <span>Delicious</span></h2>
+      <div class="how-list">
+        <article class="how-card">
+          <div class="how-icon" aria-hidden="true"></div>
+          <h3 class="how-title">Receive The Order</h3>
+          <p class="how-desc">That help us know what delicious meal you will try, but i don't write anything</p>
+        </article>
+        <article class="how-card how-card-featured">
+          <div class="how-icon" aria-hidden="true"></div>
+          <h3 class="how-title">Prepair Your Meal</h3>
+          <p class="how-desc">That help us know what delicious meal you will try, but i don't write anything</p>
+        </article>
+        <article class="how-card">
+          <div class="how-icon" aria-hidden="true"></div>
+          <h3 class="how-title">Delivery Your Meal</h3>
+          <p class="how-desc">That help us know what delicious meal you will try, but i don't write anything</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="order" class="order-form">
+      <div class="form-title">
+        <h2 class="section-title"><span class="title-desktop">Get the best Taste Now!</span><span class="title-mobile">Get your the best Taste Now!</span></h2>
+        <p class="section-sub">Best cooks and best delivery guys all at your service. Hot tasty food will reach you in
+          60 minutes.</p>
+      </div>
+      <form class="order-form-inner">
+        <div class="form-head">
+          <p class="form-title-small">What's your Taste?</p>
+          <p class="form-sub-small">Fill out the form and let us know your taste.</p>
+        </div>
+        <div class="form-field"><label class="form-label" for="meal">Select your Meal</label><select class="form-select"
+            id="meal">
+            <option>What's your Taste?</option>
+            <option>Gimbap</option>
+            <option>Korea BBQ</option>
+            <option>Kimchi</option>
+          </select><a class="link-add-taste" href="#menu">Add 1 Taste +</a></div>
+        <div class="form-row">
+          <div class="form-field"><label class="form-label" for="name">Order name</label><input class="form-input"
+              id="name" placeholder="Your name" required /></div>
+          <div class="form-field"><label class="form-label" for="phone">Phone number</label><input class="form-input"
+              id="phone" placeholder="(+84) 123 465 798" type="tel" required /></div>
+        </div>
+        <div class="form-field"><label class="form-label" for="address">Your Address</label><input class="form-input"
+            id="address" placeholder="17 Acb Street" required /></div>
+        <div class="form-field"><label class="form-label" for="payment">Payment Method</label><select
+            class="form-select" id="payment">
+            <option>I'll pay cash</option>
+            <option>Card payment</option>
+          </select></div>
+        <div class="form-field"><label class="form-label" for="note">Note for us</label><textarea class="form-note"
+            id="note" placeholder="More spicy, more sauce, ..."></textarea></div>
+        <p class="form-total">You will pay <strong>$0.00</strong></p><button class="btn-primary" type="submit">ORDER
+          NOW</button>
+      </form>
+      <img class="rider-img" src="assets/IMG/3023485c8cc451616135d998c6e33a6cdc19076e.png" alt="Foodz delivery rider" />
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="footer-brand"><a class="logo" href="#home"><img src="assets/IMG/Logo.png" alt="Foodz" /></a>
+      <p class="footer-desc">Explore your Taste with speacial food in the special place, that will make you happy. I try
+        to write some thing without lorem ipsum.</p>
+    </div>
+    <div class="footer-cols">
+      <div class="footer-col">
+        <p class="footer-col-title">Support</p><a class="footer-link" href="#contact">Help Centre</a><a
+          class="footer-link" href="#contact">Safety information</a><a class="footer-link" href="#contact">Cancellation
+          options</a><a class="footer-link" href="#contact">Report Complaint</a>
+      </div>
+      <div class="footer-col">
+        <p class="footer-col-title">Community</p><a class="footer-link" href="#contact">Customer Review</a><a
+          class="footer-link" href="#contact">Newsletter</a>
+      </div>
+      <div class="footer-col">
+        <p class="footer-col-title">About</p><a class="footer-link" href="#story">Our Chef</a><a class="footer-link"
+          href="#contact">Careers</a><a class="footer-link" href="#story">Blog</a><a class="footer-link"
+          href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
