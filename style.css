@@ -603,6 +603,20 @@ img {
 .form-select {
   height: 44px;
 }
+.address-input-wrap {
+  position: relative;
+}
+.address-input-wrap svg {
+  position: absolute;
+  z-index: 1;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+.address-input-wrap .form-input {
+  padding-left: 48px;
+}
 .form-note {
   min-height: 114px;
   resize: vertical;
